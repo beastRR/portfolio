@@ -16,7 +16,7 @@ const Home=()=>{
                 <button className="but mx-5" onClick={()=>window.location.href="mailto:beastmd05@gmail.com"}>EMAIL</button>
             </div>
 
-            <div className="col-5 image"><img src={coder}  /></div>
+            <div className="col-5 image"><img src={coder} alt="" /></div>
             </div>
             
             </Base>
