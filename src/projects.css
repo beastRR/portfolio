@@ -1,0 +1,18 @@
+.main{
+    padding:8rem 0rem 8rem 8rem;
+}
+.projTopic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:23px;
+    color:rgb(99, 27, 166);
+}
+
+.para{
+    color:black;
+    margin-top: 1rem;
+    width: 45rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+    
+}

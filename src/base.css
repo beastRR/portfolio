@@ -1,0 +1,22 @@
+.foot{
+    display:flex;
+    justify-content: center;
+    font-weight:bolder;
+    
+}
+
+.moveFooter{
+    position:relative;
+    top: 200px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.heading{
+    margin-top:80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
