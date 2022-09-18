@@ -31,21 +31,31 @@ h1{
     
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 .but{
     background: rgb(130, 40, 221);
     color: white;
     border-radius: 5px;
     border:rgb(130, 40, 221);
-    max-width: 150px;
-    width:50%;
+    max-width: 200px;
+    width:100%;
     height:3rem;
     margin-bottom: 1rem;
+    margin-right: 2rem;
     
 }
 .but:hover{
     background: rgb(47, 206, 82);
     
     
+}
+
+div.test{
+    border:3px solid red;
 }
 
 /* .imgFlex{
@@ -57,16 +67,10 @@ h1{
 .image{
     /* border: 3px solid green; */
     margin: 3rem 0 0 3rem;
-    
 }
 
 .paraHome{
     font-size: medium;
     font-weight: 900;
     color:rgb(130, 40, 221);
-}
-
-img{
-    width:100%;
-    height:auto;
 }
