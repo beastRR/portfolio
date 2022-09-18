@@ -25,7 +25,8 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hero{
-    margin-left:200px;
+    margin-left:auto;
+    margin:auto;
     /* border: 3px solid black; */
     
 }
@@ -35,8 +36,10 @@ h1{
     color: white;
     border-radius: 5px;
     border:rgb(130, 40, 221);
-    width: 8rem;
+    max-width: 150px;
+    width:50%;
     height:2.5rem;
+    margin-bottom: 1rem;
     
 }
 .but:hover{
@@ -54,10 +57,16 @@ h1{
 .image{
     /* border: 3px solid green; */
     margin: 3rem 0 0 3rem;
+    
 }
 
 .paraHome{
     font-size: medium;
     font-weight: 900;
     color:rgb(130, 40, 221);
+}
+
+img{
+    width:100%;
+    height:auto;
 }
