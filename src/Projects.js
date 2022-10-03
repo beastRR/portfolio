@@ -6,6 +6,16 @@ const Projects =()=>{
         <div>
             <Base title="MY PROJECTS" className="">
             <div className="container row main">
+                <div  className="col-8 projTopic mb-3">MOVIE SUGGESTING APP
+                <p className="para">Movie Guide app that suggest movies to watch, categorised according to differnt Genres.</p>
+                <p className="para">Stack used <span className="btn btn-info mx-3 text-white">React.js, CSS </span></p>
+                </div>
+                <div className="col-2 text-center mb-3">
+                    <button className="btn btn-success" onClick={()=>window.location.href="https://moviesuggester05.netlify.app/"}>Run Live</button></div>
+                    <div className="col-2 text-center mb-3">
+                    <button className="btn btn-success" onClick={()=>window.location.href="https://github.com/beastRR/movieSuggest"}>source code</button></div>
+                    <hr/>
+        
                 <div  className="col-8 projTopic mb-3">MEMORY PUZZLE
                 <p className="para">A basic puzzle where one have to match pair of same fruits out of many different fruits.
                     All fruits will be hidden at different boxes, one should remember the position of fruits in the boxes. </p>
